@@ -1,4 +1,4 @@
-class Point {
+class fPoint {
 public:
     int x;
     int y;
