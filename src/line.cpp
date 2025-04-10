@@ -1,8 +1,8 @@
 #include <Windows.h>
 #include "line.h"
-#include "point.h"
+#include "fpoint.h"
 
-Line::Line(Point start, Point end, int width, int color)
+Line::Line(fPoint start, fPoint end, int width, int color)
     : a(start), b(end), width(width), color(color) {}
 
 Line::draw(HDC hdc) {
