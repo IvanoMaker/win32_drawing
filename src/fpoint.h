@@ -1,3 +1,8 @@
+#pragma once
+
+#ifndef FPOINT_H
+#define FPOINT_H
+
 class fPoint {
 public:
     int x;
@@ -5,3 +10,5 @@ public:
 
     fPoint(int x, int y);
 };
+
+#endif
