@@ -1,12 +1,12 @@
-#include "point.h"
+#include "fpoint.h"
 
 class Line {
 public:
-    Point a, b;
+    fPoint a, b;
     int width;
     int color;
 
-    Line(Point a, Point b, int width, int color);
+    Line(fPoint a, fPoint b, int width, int color);
 
     void draw(HDC hdc);
 };
